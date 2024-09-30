@@ -51,11 +51,11 @@ const MyDocument = ({ commandes }) => (
   <Document>
     <Page size="A4" style={styles.page}>
       <View style={styles.navbar}>
-        <Image src="../public/navbar.png" />
+        <Image src="./assets/navbar.png" />
       </View>
       <View style={styles.main}>
         <Image
-          src="../public/logo.png"
+          src="./assets/logo.png"
           style={{ width: "100%", height: "auto", position: "absolute" }}
         />
 
@@ -107,7 +107,7 @@ function App() {
 
   return (
     <>
-      <img src="../public/navbar.png" alt="" />
+      <img src="./assets/navbar.png" alt="" />
       <div className="w-full h-2 border-b-2 mb-3"></div>
       <Typography
         variant="h5"
@@ -226,3 +226,4 @@ function App() {
 }
 
 export default App;
+
