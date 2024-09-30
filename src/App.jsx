@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import logo from './assets/logo.png';
+import nav from './assets/navbar.png';
+
 
 
 import {
@@ -54,7 +56,7 @@ const MyDocument = ({ commandes }) => (
   <Document>
     <Page size="A4" style={styles.page}>
       <View style={styles.navbar}>
-        <Image src="./assets/navbar.png" />
+        <Image src={nav} />
       </View>
       <View style={styles.main}>
         <Image
@@ -110,7 +112,7 @@ function App() {
 
   return (
     <>
-      <img src="./assets/navbar.png" alt="" />
+      <img src={nav} alt="" />
       <div className="w-full h-2 border-b-2 mb-3"></div>
       <Typography
         variant="h5"
