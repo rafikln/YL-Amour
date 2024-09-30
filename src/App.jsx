@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import logo from './assets/logo.png';
+
+
 import {
   Page,
   View,
@@ -55,7 +58,7 @@ const MyDocument = ({ commandes }) => (
       </View>
       <View style={styles.main}>
         <Image
-          src="./assets/logo.png"
+          src={logo}
           style={{ width: "100%", height: "auto", position: "absolute" }}
         />
 
